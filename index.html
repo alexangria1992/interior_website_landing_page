@@ -8,13 +8,16 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.js"></script>
+    <!-- swiper -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.css"
     />
-    <script defer src="./src/js/scrollreveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.2.10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="/src/output.css" />
+
+    <!-- scroll reveal -->
+    <script defer src="./src/js/scrollreveal.min.js"></script>
     <script defer src="./src/js/script.js"></script>
   </head>
   <body class="bg-accent-2/20">
@@ -377,9 +380,95 @@
           </p>
         </div>
       </section>
-    </div>
 
-    <!-- temporary div -->
-    <div class="h-[3000px]"></div>
+      <!--  projects  -->
+      <section class="projects">
+        <div class="container mx-auto xl:border-x border-primary/30">
+          <h2 class="h2 text-center xl:text-right pt-24 !mb-0 pb-[90px]">
+            Amazing Projects from <br />
+            Talented Interior Architects
+          </h2>
+          <!-- slider -->
+          <div class="projects__slider swiper mySwipper h-[640px] xl:h-[870px]">
+            <div class="swiper-wrapper">
+              <!-- slide 1 -->
+              <div class="swiper-slide xl:h-full flex relative">
+                <div class="bg-accent-2/10 h-full xl:h-[670px]">
+                  <img
+                    src="/img//projects/slide-1.jpg"
+                    class="w-full object-contain xl:h-full xl:object-cover"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-accent-1 h-[400px] md:h-[300px] xl:h-[200px] xl:rounded-bl-[300px] flex items-center absolute bottom-0 w-full"
+                >
+                  <div
+                    class="mx-auto flex flex-col items-center px-8 xl:px-0 xl:flex-row xl:gap-16"
+                  >
+                    <p
+                      class="text-center text-lg xl:text-left max-w-[600px] mb-8 xl:mb-0"
+                    >
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Error quam tempora quod unde provident optio, libero
+                      beatae odio! Accusantium, repudiandae sunt magni in dolore
+                      at iure expedita adipisci itaque ducimus.
+                    </p>
+                    <button
+                      class="btn btn-lg btn-accent-2 flex items-center gap-3"
+                    >
+                      <span>Explore Now</span>
+                      <i class="ri-arrow-right-long-line"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- slide 2 -->
+
+              <div class="swiper-slide xl:h-full flex relative">
+                <div class="bg-accent-2/10 h-full xl:h-[670px]">
+                  <img
+                    src="/img//projects/slide-1.jpg"
+                    class="w-full object-contain xl:h-full xl:object-cover"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="bg-accent-1 h-[400px] md:h-[300px] xl:h-[200px] xl:rounded-bl-[300px] flex items-center absolute bottom-0 w-full"
+                >
+                  <div
+                    class="mx-auto flex flex-col items-center px-8 xl:px-0 xl:flex-row xl:gap-16"
+                  >
+                    <p
+                      class="text-center text-lg xl:text-left max-w-[600px] mb-8 xl:mb-0"
+                    >
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Error quam tempora quod unde provident optio, libero
+                      beatae odio! Accusantium, repudiandae sunt magni in dolore
+                      at iure expedita adipisci itaque ducimus.
+                    </p>
+                    <button
+                      class="btn btn-lg btn-accent-2 flex items-center gap-3"
+                    >
+                      <span>Explore Now</span>
+                      <i class="ri-arrow-right-long-line"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-button-next xl:mr-4 after:mb-96 xl:after:mb-40"
+            ></div>
+            <div
+              class="swiper-button-prev xl:mr-4 after:mb-96 xl:after:mb-40"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- temporary div -->
+      <div class="h-[3000px]"></div>
+    </div>
   </body>
 </html>
